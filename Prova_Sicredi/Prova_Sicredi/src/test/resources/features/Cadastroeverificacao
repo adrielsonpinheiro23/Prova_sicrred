@@ -1,0 +1,15 @@
+# language: pt
+
+  Funcionalidade: Acessar o site informado
+    para cadastrar novo membro
+    identificando a mensagem de informação
+    após cadastro realizado
+
+    Cenário: Cadastrar mebro e verificar mensagem
+      Dado que estou no site informado
+      Quando fazer um filtro
+      E cadastrar novo membro
+      Entao devo verificar a mensagem de confirmacao
+      E fechar o navegador
+
+
